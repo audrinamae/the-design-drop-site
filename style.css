@@ -462,9 +462,9 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-	.slide:first-of-type {
-		padding-top: 180px;
-	}
+	.portfolio-item {
+		min-width: 300px;
+		padding: 40px 30px;	
 	}
 
 	.portfolio-title {
