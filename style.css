@@ -229,7 +229,7 @@ body {
 }
 
 .portfolio-item {
-	background: rgba(255, 255, 255, .670);
+	background: rgba(255, 255, 255, .02);
 	backdrop-filter: blur(15px);
   border-radius: 40px;
 	padding: 40px 20px;
