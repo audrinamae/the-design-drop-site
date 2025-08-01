@@ -462,6 +462,27 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+	.hero,
+	.branding-section,
+	.central-content {
+		padding-top: 120px;
+		padding-left: 16px
+		padding-right: 16px;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.hero h2,
+	.hero p,
+	.branding-section h2,
+	.branding-section p {
+		text-align: center;
+	}
+}
+
+		
 	.portfolio-item {
 		min-width: 300px;
 		padding: 40px 30px;	
@@ -475,11 +496,6 @@ body {
 		right: 20px;
 	}
 }
-
-.branding-section, .central-content {
-	text-align: center;
-	margin: 0 auto;
-	padding: 0 20px;
 
 .pricing {
   padding: 60px 60px;
