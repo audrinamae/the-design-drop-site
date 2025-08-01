@@ -476,6 +476,10 @@ body {
 	}
 }
 
+.branding-section, .central-content {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px;
 
 .pricing {
   padding: 60px 60px;
