@@ -21,7 +21,7 @@
   font-family: "Arial", Tahoma;
   text-transform: lowercase;
   letter-spacing: 2px;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.68);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, .68);
   font-size: 1.3rem;
   font-weight: 700;
   color: white;
