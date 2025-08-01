@@ -21,7 +21,7 @@
   font-family: "Arial", Tahoma;
   text-transform: lowercase;
   letter-spacing: 2px;
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, .65);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
   font-size: 1.3rem;
   font-weight: 700;
   color: white;
@@ -111,7 +111,7 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(255, 255, 255, 0.00);
+	background: rgba(255, 255, 255, 0.0);
 	z-index: 1;
 }
 
@@ -229,7 +229,7 @@ body {
 }
 
 .portfolio-item {
-	background: rgba(255, 255, 255, .02);
+	background: rgba(255, 255, 255, .670);
 	backdrop-filter: blur(15px);
   border-radius: 40px;
 	padding: 40px 20px;
@@ -462,30 +462,9 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-	.hero,
-	.branding-section,
-	.central-content {
-		padding-top: 120px;
-		padding-left: 16px;
-		padding-right: 16px;
-		margin: 0 auto;
-		text-align: center;
-		display: block;
-		width: 100%;
-		box-sizing: border-box;
-	}
-	.hero h2,
-	.hero p,
-	.branding-section h2,
-	.branding-section p {
-		text-align: center;
-	}
-}
-
-		
 	.portfolio-item {
 		min-width: 300px;
-		padding: 40px 30px;	
+		padding: 40px 30px;
 	}
 
 	.portfolio-title {
@@ -496,6 +475,7 @@ body {
 		right: 20px;
 	}
 }
+
 
 .pricing {
   padding: 60px 60px;
@@ -598,19 +578,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     font-size: 16px;
     padding: 0 16px;
 }
-	
   .navbar {
-    position: fixed;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  z-index: 100;
-	  flex-direction: column;
-	  align-items: center;
-	  padding: 10px 16px;
-	  font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
   }
-	
   .nav-links {
     flex-direction: column;
     gap: 12px;
@@ -650,7 +622,3 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-align: center; 
   }
   }
-
-
-
-
